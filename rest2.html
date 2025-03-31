@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="'x-icon" href="logo2.png">
+    <title>FestVista</title>
+    <link rel="stylesheet" href="sweet.css">
+    <link rel="stylesheet" href="restaurent.css">
+    <link rel="stylesheet" href="book123.css">
+    <link rel="stylesheet" href="cursor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <a href="index.html">
+                <div class="logo"></div>
+                </a>
+            </div>
+            <div class="search">
+                <select class="select">
+                    <option>All</option>
+                    <option>Sweet</option>
+                    <option>chat</option>
+                </select>
+                <input placeholder="Search Food" class="searchbar"/>
+                <div class="searchicon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                
+            </div>
+            <div class="account">
+                <i class="fa-regular fa-circle-user"></i>
+            </div>
+        </div>
+
+        <div class="navbar-2">
+            <div class="design"></div>
+            <div class="Sweets option">Restaurant</div>
+            <div class="design"></div>
+        </div>
+    </header>
+
+    <div class="body">
+         
+        <div class="restaurentheader">
+            <h1>A2B VEG RESTAURANT</h1>
+            <div class="restaurentimage" style="background-image: url('rest/4.png');">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="book">
+                <!-- For Next/Prev Controls -->
+                <input type="checkbox" id="c1">
+                <input type="checkbox" id="c2">
+                <input type="checkbox" id="c3">
+                <div class="restaurantinformation"> 
+                    <img src="border.svg" alt="border" class="restaurantinformationimage">
+                    <table>
+                        <tr>
+                            <th>Restaurant Name:</th>
+                            <td>A2B VEG RESTAURANT</td>
+                        </tr>
+
+                        <tr>
+                            <th>Cuisine Type:</th>
+                            <td>Indian, Chineese</td>
+                        </tr>
+
+                        <tr>
+                            <th>Location:</th>
+                            <td>Ramapuram, Alandur, Chennai, Tamil Nadu 600016</td>
+                        </tr>
+
+                        <tr>
+                            <th rowspan="3">Contact Information:</th>
+                            <td>📞 +91 87665 44214</td>
+                        </tr>
+
+                        <tr>
+                            <td>✉️ contact@a2bramapuram.in</td>
+                        </tr>
+
+                        <tr>
+                            <td>🌐 www.a2bramapurams.in</td>
+                        </tr>
+                        
+                        <tr>
+                            <th>Operating Hours:</th>
+                            <td>Mon-Sun: 8:00 AM – 11:00 PM</td>
+                        </tr>
+
+                        <tr>
+                            <th>Pricing Range:</th>
+                            <td> Mid-range ₹₹₹</td>
+                        </tr>
+
+                        <tr>
+                            <th>Seating Capacity:</th>
+                            <td> 100 seats</td>
+                        </tr>
+                    </table>
+                    <img src="border.svg" alt="border" class="restaurantinformationimage">
+                </div>
+                <!-- Pages -->
+                <div class="flip-book">
+                  <!-- Page 1 -->
+                  <div class="flip" id="p1">
+                        <div class="back">
+                            <label for="c1" class="back-btn">Before</label>
+                        </div>
+                        <div class="front" style="background-image: url('MENU.png'); background-size: contain;">
+
+                            <label for="c1" class="next-btn">NEXT</label>
+                        </div>
+                  </div>
+                  <!-- Page 2 -->
+                  <div class="flip" id="p2">
+                        <div class="back">
+                            <label for="c2" class="back-btn">Before</label>
+                        </div>
+                        <div class="front">
+                            <h2>Page 2</h2>
+                            <label for="c2" class="next-btn">NEXT</label>
+                        </div>
+                  </div>
+                  <!-- Page 3 -->
+                  <div class="flip" id="p3">
+                        <div class="back">
+                            <label for="c3" class="back-btn">Before</label>
+                        </div>
+                        <div class="front"> 
+                            <h2>Page 3</h2>
+                            <label for="c3" class="next-btn">NEXT</label>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.133915782071!2d80.19911307484195!3d13.004862487313591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526745b3d5e147%3A0x40acd05f68c5c134!2sA2B%20VEG%20RESTAURANT!5e1!3m2!1sen!2sin!4v1741522880589!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+        
+
+         
+    </div>
+    <script src="cursor.js"></script>
+</body>
+</html>
