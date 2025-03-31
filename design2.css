@@ -16,6 +16,7 @@ body{
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    
 }
 
 h1{
@@ -44,6 +45,7 @@ form{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
 }
 
 .box{
@@ -221,9 +223,13 @@ form img{
     }
 
 
-  .login input ,label{
-    font-size: 1rem;
-  }
+    .login input ,label{
+      font-size: 1rem;
+    }
+
+    .gender input{
+      font-size: 2vw;
+    }
 
     body{
       display: flex;
